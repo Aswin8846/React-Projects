@@ -1,0 +1,73 @@
+.competition-management {
+    margin: 20px;
+    background-color: #f0f0f0; /* Fallback color */
+    background-image: linear-gradient(to bottom right, #a3cfff, #5a9eed); /* Gradient background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .competition-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .competition-input,
+  .date-input,
+  .participant-input {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .competition-button,
+  .add-participant-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4caf50; /* Change button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .competition-button:hover,
+  .add-participant-button:hover {
+    background-color: #45a049; /* Change hover color */
+  }
+  
+  .competition-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .competition-item {
+    margin-top: 20px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white; /* Background color for each competition item */
+  }
+  
+  .competition-item > div {
+    margin-bottom: 10px;
+  }
+  
+  .participants-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .delete-participant-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-participant-button:hover {
+    background-color: #e53935;
+  }
+  
